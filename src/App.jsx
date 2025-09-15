@@ -44,7 +44,7 @@ function App() {
 
         <div className='row'>
           <div className='col-4'>
-            <h3>Formacion</h3>
+            <h3>Formación</h3>
           </div>
           <div className='col-8'>
             <ul>
@@ -81,7 +81,7 @@ function App() {
               <li>Sistemas Operativos: Linux, Windows</li>
               <li>Herramientas Linux: Apache, Bash, Docker</li>
               <li>Desarrollo: PHP, Angular, JavaScript, MySQL, PostgreSQL</li>
-        </ul>
+          </ul>
         </div>
         </div>
 
@@ -92,9 +92,41 @@ function App() {
             <h3>Proyectos</h3>
           </div>
           <div className='col-8'>
+            <p>
+
+              SISTEMA DE GESTIÓN DE INFRAESTRUCTURA VIAL (PROYECTO
+              ACADÉMICO, 2024)
+            </p>
             <ul>
-              <li>Proyecto 1 - Descripción del proyecto 1</li>
-              <li>Proyecto 2 - Descripción del proyecto 2</li>
+              <li>
+              Desarrollé módulos en PHP y modelé interacciones con diagramas UML en
+              PlantUML.
+              Configuré un servidor Apache en Ubuntu para pruebas locales.
+              </li>
+            </ul>
+            <p>
+              SISTEMA DE GESTIÓN DE SUPERMERCADO (MINIMARKET) PROYECTO
+              ACADÉMICO, 2025
+            </p>
+            <ul>
+            <li>
+              Diseñé e implementé un sistema CRUD en PHP con programación orientada
+              a objetos para gestionar empleados, clientes, y ventas, utilizando
+              controladores como EmpleadoController y VentaController.
+            </li>
+            <li>
+              Modelé una base de datos MySQL con tablas como Productos, Ventas, y
+              Usuarios, implementando procedimientos almacenados (RegistrarVenta) para
+              transacciones seguras.
+            </li>
+            <li>
+              Creé un diagrama de clases UML en PlantUML para representar entidades y
+              relaciones, optimizando el diseño del sistema.
+            </li>
+            <li>
+              Configuré un entorno de desarrollo con Docker en Ubuntu con Apache,
+              asegurando la correcta ejecución de la aplicación web.
+            </li>
             </ul>
           </div>
         </div>
